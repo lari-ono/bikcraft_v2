@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .header {
@@ -23,7 +23,6 @@
 }
 
 .header-menu a {
-  color: #ffffff;
   display: inline-block;
   /* area de contato fica maior para clicar */
   padding: 16px 0;
