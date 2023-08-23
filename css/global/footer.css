@@ -18,10 +18,12 @@
   margin-bottom: 32px;
 }
 
-.footer li::after {
+.footer-contato li:nth-child(even):after  {
   content: "";
   display: block;
-  width: 100%;
+  width: 360px;
+  height: 2px;
+  background: var(--cor-11);
   margin-top: 16px;
 }
 
@@ -33,3 +35,21 @@
   display: flex;
   gap: 32px;
 }
+
+.footer a:hover {
+  color: var(--cor-0);
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .footer-copy {
+   margin-top: 0px;
+  }}
