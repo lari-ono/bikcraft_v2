@@ -34,6 +34,7 @@
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
   background: var(--cor-12);
+  display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
   gap: 20px;
@@ -129,7 +130,6 @@
   display: none;
   background: var(--cor-0);
   padding: 20px;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 4px;
   align-items: center;

@@ -4,10 +4,11 @@
 
 .header {
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   max-width: 1200px;
   gap: 20px;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -22,10 +23,7 @@
   display: inline-block;
   /* area de contato fica maior para clicar */
   padding: 16px 0;
-  font-size: 18px;
   position: relative;
-  font-family: 'Poppins';
-  font-weight: 400;
 }
 
 .header-menu a:after {
@@ -34,7 +32,7 @@
   height: 2px;
   width: 0px;
   margin-top: 4px;
-  background-color: #ffffff;
+  background-color: var(--cor-0);
   transition: 0.3s;
   position: absolute;
 }
