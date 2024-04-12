@@ -1,5 +1,6 @@
 # 🚲 Bikcraft
-Breve descrição do projeto
+Projeto desenvolvido no curso Origamid, no módulo HTML/CSS para iniciantes.
+Foi elaborado desde as fases iniciais - prototipagem no Figma - até partir para o código.
 
 # :hammer: Funcionalidades do projeto
 
